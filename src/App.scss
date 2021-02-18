@@ -1,0 +1,143 @@
+
+.bar {
+  width: 0.2vw;
+  display: inline-block;
+  background-color: gray;
+}
+//.bar:hover{
+  //background-color: blue
+//}
+
+
+#bars{
+  position: absolute;
+  bottom: calc(20vh - 0.15vw);
+  left: 1vw
+}
+
+#x-axis{
+  width: 80vw;
+  border-bottom: 0.3vw solid black;
+  position: absolute;
+  bottom: 20vh;
+  left: 10vw;
+}
+
+#y-axis{
+  height: 70vh;
+  border-left: 0.3vw solid black;
+  position: absolute;
+  bottom: 20vh;
+  left: 10vw;
+}
+
+.tickx{
+  height: 1vw;
+  border-left: .3vw solid black;
+  position: absolute;
+  bottom: calc(20vh - 1vw);
+}
+#tickx1{
+  left: 15vw
+}
+#tickx2{
+  left: 25.3vw
+}
+#tickx3{
+  left: 35.6vw
+}
+#tickx4{
+  left: 46.0vw
+}
+#tickx5{
+  left: 56.3vw
+}
+#tickx6{
+  left: 66.6vw
+}
+#tickx7{
+  left: 77vw
+}
+#tickx8{
+  left: 87.3vw
+}
+
+.ticky{
+  width: 1vw;
+  border-top: .3vw solid black;
+  position: absolute;
+  left: 9vw;
+}
+#ticky1{
+  bottom: 30vh
+}
+#ticky2{
+  bottom: 40vh
+}
+#ticky3{
+  bottom: 50vh
+}
+#ticky4{
+  bottom: 60vh
+}
+#ticky5{
+  bottom: 70vh
+}
+#ticky6{
+  bottom: 80vh
+}
+
+
+.date{
+  position: absolute;
+  top: 80vh;
+  font-size: 1.5vw
+}
+#date1{
+  left: 12vw
+}
+#date2{
+  left: 22.3vw
+}
+#date3{
+  left: 32.6vw
+}
+#date4{
+  left: 43vw
+}
+#date5{
+  left: 53.3vw
+}
+#date6{
+  left: 63.6vw
+}
+#date7{
+  left: 74vw
+}
+#date8{
+  left: 84.3vw
+}
+
+.count{
+  position: absolute;
+  right: 92vw;
+  font-size: 1.5vw;
+}
+#count1{
+  bottom: calc(30vh - 2.25vw)
+}
+#count2{
+  bottom: calc(40vh - 2.25vw)
+}
+#count3{
+  bottom: calc(50vh - 2.25vw)
+}
+#count4{
+  bottom: calc(60vh - 2.25vw)
+}
+#count5{
+  bottom: calc(70vh - 2.25vw)
+}
+#count6{
+  bottom: calc(80vh - 2.25vw)
+}
