@@ -33,7 +33,7 @@ class Main extends Component {
           totCases.unshift(i.positive)
           totDeaths.unshift(i.death)
         })
-console.log(totCases)
+
         //cases and death arrays are same length so they'll be run together
         for(let i = 1; i < totCases.length; i++){
           newCases.push(totCases[i] - totCases[i - 1])
