@@ -1,3 +1,7 @@
+# Covid Tracker
+This project pulls the latest covid data and displays it in a bar graph. Data didplayed is daily and total cases and daily and total deaths in the United States.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
